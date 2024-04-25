@@ -1,0 +1,128 @@
+/* root{
+    --yellow:#FFC54D;
+    --red:crimson;
+    --white:whitesmoke;
+    --green:#53BF9D;
+} */
+body,h2{
+    margin: 0;
+}
+.landing{
+    background-image:url('../assets/ress.jpg');
+    background-size: cover;
+   height: 100vh;
+    background-position: center;
+
+color: whitesmoke;
+
+}
+
+header a{
+    text-decoration: none;
+    color: yellow;
+}
+header{
+    display: flex;
+    padding: 1em;
+}
+#logo{
+    flex: 3;
+    font-size: 1.25em;
+}
+nav{
+    flex:2;
+    display: flex;
+    align-items: center;
+
+}
+nav a{
+    flex:1;
+}
+nav a:hover{
+    color: green;
+}
+ .maintext{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    padding: 2em;
+    justify-content: center;
+ }
+
+.tagline1{
+    color: red;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+.tagline2{
+    color:yellow;
+}
+.maintext div{
+    margin-top: 0.75em;
+}
+.maintext button{
+    width: 15vw;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding: .8em;
+    background-color:  green;
+
+}
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: linear-gradient(to right,rgb(97, 44, 44),rgb(53,52,52));
+      color:whitesmoke;
+
+}
+#menuheading,#locaheading{
+    background: linear-gradient(to right,rgb(97, 44, 44),rgb(53,52,52));
+   color: rgba(72, 255, 0, 0.342);
+   font-size: 2.5em;
+   display: flex;
+   justify-content: center;
+}
+.menu th{
+    color:dodgerblue;
+    font-size: 1.8em;
+}
+table{
+    width: 100%;
+
+}
+menu tr{
+    display: flex;
+    justify-content:center;
+    margin-top: .5em;
+}
+.menu td:nth-child(1){
+    flex: 1;
+justify-self:left ;
+}
+.menu td:nth-child(2){
+    justify-self:right ;
+    }
+    .locations{
+        background: linear-gradient(to right,rgb(97, 44, 44),rgb(53,52,52));
+      color: white;
+      display: flex;
+    }
+    .locations h2{
+        color:greenyellow   }
+        .locations address{
+            padding: .8em;
+            font: 1em menu;
+            
+        }
+        
+        .locations div{
+            flex: 1em;
+        }
+        .copyright{
+            color: #c0bfbf;
+            background-color: #352f2f;
+            padding: .25em 1em;
+        }
+        header h2 i,nav a i{
+            margin-right: .5em;
+        }
